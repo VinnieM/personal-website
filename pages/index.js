@@ -73,15 +73,15 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          About
+          About Me
         </Heading>
         <Paragraph>
           Hey there! I&apos;m a software engineer who enjoys taking complex
           problems and turning them into simple and elegant solutions. I love
           the thrill of finding the logic and creating elegant structures.
-          <br></br>
-          When I&apos;m not coding, you&apos;ll find me watching movies, hanging
-          out with my friends or riding my motorcycle.
+          <br></br><br></br>
+          When I&apos;m not coding, you&apos;ll find me watching movies, 
+          trying my hand in photography or riding my motorcycle. 🏍️💨
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -98,24 +98,24 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>1987</BioYear>
-          <BioDescription>Born in Kerala, India.</BioDescription>
+          <BioDescription>Born in Kerala, India 👶🏽</BioDescription>
         </BioSection>
         <BioSection>
           <BioYear>2011</BioYear>
           <BioDescription>
-            Completed Masters in Computer Science.
+            Masters in Computer Science 🎓
           </BioDescription>
         </BioSection>
         <BioSection>
           <BioYear>2014</BioYear>
           <BioDescription>
-            Started working in Wipro as Technical Lead.
+            Software Enginner in Wipro
           </BioDescription>
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
           <BioDescription>
-            Started working in Broadsign as Software Engineer.
+          Software Enginner in Broadsign
           </BioDescription>
         </BioSection>
       </Section>
@@ -136,7 +136,7 @@ const Home = () => (
         </Heading>
         <li>
           <section>
-            Primary Author of xTune - A test automation framework.
+          Primary Author of xTune - A test automation framework.
           </section>
         </li>
         <li>
