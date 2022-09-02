@@ -42,7 +42,7 @@ const Home = () => (
             Vineeth Menon
           </Heading>
           <p>
-            Backend enginner, Java; & _Python enthusiast. Photographer; love to
+          Backend enginner, Java; & _Python enthusiast. Photographer, love to
             solve problems with and without code.
           </p>
         </Box>
@@ -125,28 +125,21 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Coding, <text style={{ color: 'green' }}>Music</text>, Movies,{' '}
-          <text style={{ color: 'green' }}>Treking</text> and Photography.
+          Coding, <text style={{ color: 'teal' }}>Music</text>, Movies,{' '}
+          <text style={{ color: 'teal' }}>Treking</text> and Photography.
         </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          Achievements
+          Accomplishments
         </Heading>
-        <li>
-          <section>
-          Primary Author of xTune - A test automation framework.
-          </section>
-        </li>
-        <li>
-          <section>
-            <a href="https://wiprodigital.com/2017/11/28/look-before-you-leap-a-software-developers-guide-to-effective-debugging/">
+        <Paragraph>Primary Author of xTune - A test automation framework.</Paragraph>
+        <Paragraph><text style={{ color: 'teal' }}><a href="https://wiprodigital.com/2017/11/28/look-before-you-leap-a-software-developers-guide-to-effective-debugging/">
               Look Before You Leap! A Software Developer&apos;s Guide to
               Effective Debugging
-            </a>
-          </section>
-        </li>
+            </a></text></Paragraph>
+            
       </Section>
 
       <Section delay={0.3}>
