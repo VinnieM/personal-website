@@ -42,7 +42,7 @@ const Home = () => (
             Vineeth Menon
           </Heading>
           <p>
-          Backend enginner, Java; & _Python enthusiast. Photographer, love to
+            Backend enginner, Java; & _Python enthusiast. Photographer, love to
             solve problems with and without code.
           </p>
         </Box>
@@ -79,9 +79,10 @@ const Home = () => (
           Hey there! I&apos;m a software engineer who enjoys taking complex
           problems and turning them into simple and elegant solutions. I love
           the thrill of finding the logic and creating elegant structures.
-          <br></br><br></br>
-          When I&apos;m not coding, you&apos;ll find me watching movies, 
-          trying my hand in photography or riding my motorcycle. 🏍️💨
+          <br></br>
+          <br></br>
+          When I&apos;m not coding, you&apos;ll find me watching movies, trying
+          my hand in photography or riding my motorcycle. 🏍️💨
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -102,21 +103,15 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2011</BioYear>
-          <BioDescription>
-            Masters in Computer Science 🎓
-          </BioDescription>
+          <BioDescription>Masters in Computer Science 🎓</BioDescription>
         </BioSection>
         <BioSection>
           <BioYear>2014</BioYear>
-          <BioDescription>
-            Software Enginner in Wipro
-          </BioDescription>
+          <BioDescription>Software Enginner in Wipro</BioDescription>
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          <BioDescription>
-          Software Enginner in Broadsign
-          </BioDescription>
+          <BioDescription>Software Enginner in Broadsign</BioDescription>
         </BioSection>
       </Section>
 
@@ -134,12 +129,17 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Accomplishments
         </Heading>
-        <Paragraph>Primary Author of xTune - A test automation framework.</Paragraph>
-        <Paragraph><text style={{ color: 'teal' }}><a href="https://wiprodigital.com/2017/11/28/look-before-you-leap-a-software-developers-guide-to-effective-debugging/">
+        <Paragraph>
+          Primary Author of xTune - A test automation framework.
+        </Paragraph>
+        <Paragraph>
+          <text style={{ color: 'teal' }}>
+            <a href="https://wiprodigital.com/2017/11/28/look-before-you-leap-a-software-developers-guide-to-effective-debugging/">
               Look Before You Leap! A Software Developer&apos;s Guide to
               Effective Debugging
-            </a></text></Paragraph>
-            
+            </a>
+          </text>
+        </Paragraph>
       </Section>
 
       <Section delay={0.3}>
