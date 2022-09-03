@@ -9,7 +9,7 @@ import thumbFakeFace from '../public/images/works/fakeface-home.png'
 import thumbHandGesture from '../public/images/works/handgesture-home.png'
 
 const Works = () => (
-  <Layout title="Works">
+  <Layout>
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Projects
