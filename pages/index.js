@@ -125,8 +125,8 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Coding, <text style={{ color: 'teal' }}>Music</text>, Movies,{' '}
-          <text style={{ color: 'teal' }}>Treking</text> and Photography.
+          Coding, <text style={{ color: 'teal' }}>music</text>, movies,{' '}
+          <text style={{ color: 'teal' }}>treking</text> and photography.
         </Paragraph>
       </Section>
 
