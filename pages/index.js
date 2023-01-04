@@ -107,15 +107,15 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2014</BioYear>
-          <BioDescription>Software Enginner in Wipro</BioDescription>
+          <BioDescription>Software Enginner at Wipro</BioDescription>
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          <BioDescription>Software Enginner in Broadsign</BioDescription>
+          <BioDescription>Software Enginner at Broadsign</BioDescription>
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          <BioDescription>Software Enginner in Autonomic</BioDescription>
+          <BioDescription>Software Enginner at Autonomic</BioDescription>
         </BioSection>
       </Section>
 
