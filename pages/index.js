@@ -42,7 +42,7 @@ const Home = () => (
             Vineeth Menon
           </Heading>
           <p>
-            Backend enginner, Java; & _Python enthusiast. Photographer, love to
+            Backend enginner. Java; & _Python enthusiast. I love to
             solve problems with and without code.
           </p>
         </Box>
@@ -112,6 +112,10 @@ const Home = () => (
         <BioSection>
           <BioYear>2021</BioYear>
           <BioDescription>Software Enginner in Broadsign</BioDescription>
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          <BioDescription>Software Enginner in Autonomic</BioDescription>
         </BioSection>
       </Section>
 
