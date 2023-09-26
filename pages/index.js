@@ -136,14 +136,6 @@ const Home = () => (
         <Paragraph>
           Primary Author of xTune - A test automation framework.
         </Paragraph>
-        <Paragraph>
-          <text style={{ color: 'teal' }}>
-            <a href="https://wiprodigital.com/2017/11/28/look-before-you-leap-a-software-developers-guide-to-effective-debugging/">
-              Look Before You Leap! A Software Developer&apos;s Guide to
-              Effective Debugging
-            </a>
-          </text>
-        </Paragraph>
       </Section>
 
       <Section delay={0.3}>
