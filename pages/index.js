@@ -115,7 +115,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          <BioDescription>Software Enginner at Autonomic</BioDescription>
+          <BioDescription>Software Enginner at Autonomic. In 2023, Autonomic became fully integrated with Ford Motor Company.</BioDescription>
         </BioSection>
       </Section>
 

@@ -17,12 +17,9 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem
-            id="JsonParser"
-            title="Json Parser"
-            thumbnail={jsonp}
-          >
-            A convenience library that makes it easier to retrieve values from JSON.
+          <WorkGridItem id="JsonParser" title="Json Parser" thumbnail={jsonp}>
+            A convenience library that makes it easier to retrieve values from
+            JSON.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
