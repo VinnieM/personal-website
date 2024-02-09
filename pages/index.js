@@ -42,7 +42,7 @@ const Home = () => (
             Vineeth Menon
           </Heading>
           <p>
-            Backend enginner. Java; & _Python enthusiast. I love to
+            Backend engineer. Java; & _Python enthusiast. I love to
             solve problems with and without code.
           </p>
         </Box>
@@ -84,13 +84,6 @@ const Home = () => (
           When I&apos;m not coding, you&apos;ll find me watching movies, trying
           my hand in photography or riding my motorcycle. 🏍️💨
         </Paragraph>
-        <Box align="center" my={4}>
-          <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
 
       <Section delay={0.2}>
@@ -134,7 +127,7 @@ const Home = () => (
           Accomplishments
         </Heading>
         <Paragraph>
-          Primary Author of xTune - A test automation framework.
+          Primary Author of xTune - An automation framework.
         </Paragraph>
       </Section>
 
