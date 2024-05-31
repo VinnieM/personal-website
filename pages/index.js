@@ -137,7 +137,7 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/VinnieM" target="_blank">
+            <Link href="https://github.com/vineeth-au" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
