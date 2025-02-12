@@ -4,9 +4,6 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import jsonp from '../public/images/works/JsonParser-Image1.png'
-import thumbadulting101 from '../public/images/works/adulting101-home.png'
-import thumbFakeFace from '../public/images/works/fakeface-home.png'
-import thumbHandGesture from '../public/images/works/handgesture-home.png'
 
 const Works = () => (
   <Layout>
@@ -17,12 +14,9 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem
-            id="JsonParser"
-            title="Json Parser"
-            thumbnail={jsonp}
-          >
-            A convenience library that makes it easier to retrieve values from JSON.
+          <WorkGridItem id="JsonParser" title="Json Parser" thumbnail={jsonp}>
+            A convenience library that makes it easier to retrieve values from
+            JSON.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
