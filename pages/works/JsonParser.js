@@ -12,7 +12,7 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
-// TODO: Add the code and 
+// TODO: Add the code and
 // var data = {
 // 	"perms": [{
 // 		"changeDefault": "Yes",
@@ -48,8 +48,9 @@ const Projects = () => (
         Json Parser <Badge>2021-</Badge>
       </Title>
       <P>
-       A JSON parser which would traverse through a JSON object and return the requested value.
-       {/* <pre><br></br>{JSON.stringify(data, null, 2)}</pre> */}
+        A JSON parser which would traverse through a JSON object and return the
+        requested value.
+        {/* <pre><br></br>{JSON.stringify(data, null, 2)}</pre> */}
       </P>
       <List ml={4} my={4}>
         <ListItem>

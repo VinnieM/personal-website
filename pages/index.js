@@ -42,7 +42,7 @@ const Home = () => (
             Vineeth Menon
           </Heading>
           <p>
-            Backend enginner. Java; & _Python enthusiast. I love to
+            Backend engineer. Java; & _Python enthusiast. I love to
             solve problems with and without code.
           </p>
         </Box>
@@ -84,13 +84,6 @@ const Home = () => (
           When I&apos;m not coding, you&apos;ll find me watching movies, trying
           my hand in photography or riding my motorcycle. 🏍️💨
         </Paragraph>
-        <Box align="center" my={4}>
-          <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
 
       <Section delay={0.2}>
@@ -115,7 +108,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          <BioDescription>Software Enginner at Autonomic</BioDescription>
+          <BioDescription>Software Enginner at Autonomic. In 2023, Autonomic became fully integrated with Ford Motor Company.</BioDescription>
         </BioSection>
       </Section>
 
@@ -134,15 +127,7 @@ const Home = () => (
           Accomplishments
         </Heading>
         <Paragraph>
-          Primary Author of xTune - A test automation framework.
-        </Paragraph>
-        <Paragraph>
-          <text style={{ color: 'teal' }}>
-            <a href="https://wiprodigital.com/2017/11/28/look-before-you-leap-a-software-developers-guide-to-effective-debugging/">
-              Look Before You Leap! A Software Developer&apos;s Guide to
-              Effective Debugging
-            </a>
-          </text>
+          Primary Author of xTune - An automation framework.
         </Paragraph>
       </Section>
 
@@ -152,7 +137,7 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/VinnieM" target="_blank">
+            <Link href="https://github.com/vineeth-au" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -196,7 +181,7 @@ const Home = () => (
             scroll={false}
           >
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              <a href="https://www.dropbox.com/scl/fi/x795ldz4n3genk3u1bd5t/Resume_VineethMenon.pdf?rlkey=mohithg8cb84hlok7mlnboi4j&st=6aq1rvku&dl=0"> 
+              <a href="https://www.dropbox.com/scl/fi/x795ldz4n3genk3u1bd5t/Resume_VineethMenon.pdf?rlkey=mohithg8cb84hlok7mlnboi4j&st=6aq1rvku&dl=0">
                 Download Resume
               </a>
             </Button>
