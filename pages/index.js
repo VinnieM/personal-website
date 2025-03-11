@@ -191,12 +191,12 @@ const Home = () => (
 
         <Box align="center" my={4}>
           <NextLink
-            href="https://www.dropbox.com/s/pfhx0mkmmu1orhd/Resume.pdf?dl=0"
+            href="https://www.dropbox.com/scl/fi/x795ldz4n3genk3u1bd5t/Resume_VineethMenon.pdf?rlkey=mohithg8cb84hlok7mlnboi4j&st=6aq1rvku&dl=0"
             passHref
             scroll={false}
           >
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              <a href="https://www.dropbox.com/s/pfhx0mkmmu1orhd/Resume.pdf?dl=0"> 
+              <a href="https://www.dropbox.com/scl/fi/x795ldz4n3genk3u1bd5t/Resume_VineethMenon.pdf?rlkey=mohithg8cb84hlok7mlnboi4j&st=6aq1rvku&dl=0"> 
                 Download Resume
               </a>
             </Button>
